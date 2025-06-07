@@ -15,7 +15,11 @@
             ],
             "matches": [
                 "https://dev.azure.com/*"
-            ]
+            ],
+            "run_at": "document_idle"
         }
+    ],
+    "permissions": [
+        "clipboardWrite"
     ]
 }
